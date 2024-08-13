@@ -34,10 +34,14 @@ const Hero = () => {
 					/>
 
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-						based in Massachusetts.
+						and tech ethusiast based in Massachusetts.📍
 					</p>
 					<a href="#about">
-						<MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
+						<MagicButton
+							title="Show my work"
+							icon={<FaLocationArrow />}
+							position="right"
+						/>
 					</a>
 				</div>
 			</div>
