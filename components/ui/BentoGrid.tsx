@@ -3,7 +3,7 @@ import animationData from "@/data/confetti.json";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useState } from "react";
-import { FaDownload } from "react-icons/fa";
+import { FaCheckCircle, FaDownload } from "react-icons/fa";
 import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
 import { GlobeDemo } from "./GridGlobe";
 import MagicButton from "./MagicButton";
@@ -196,7 +196,7 @@ export const BentoGridItem = ({
 
 							<MagicButton
 								title={download ? "Resume downloaded!" : "Download Resume"}
-								icon={download ? <img src="/completed.gif" alt="download" /> : <FaDownload />}
+								icon={download ? <FaCheckCircle /> : <FaDownload />}
 								position="right"
 								handleClick={handleDownload}
 								otherClasses="!bg-[#161A31]"
