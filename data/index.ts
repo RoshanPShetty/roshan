@@ -122,33 +122,38 @@ export const projects = [
 export const testimonials = [
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
+		name: "Michael Gulik",
+		title: "Software Engineer at GRUBBRR",
+		img: "/profile.jpg",
 	},
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
+		name: "Michael Gulik",
+		title: "Software Engineer at GRUBBRR",
+		img: "/profile.jpg",
 	},
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
+		name: "Michael Gulik",
+		title: "Software Engineer at GRUBBRR",
+		img: "/profile.jpg",
 	},
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
+		name: "Michael Gulik",
+		title: "Software Engineer at GRUBBRR",
+		img: "/profile.jpg",
 	},
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
+		name: "Michael Gulik",
+		title: "Software Engineer at GRUBBRR",
+		img: "/profile.jpg",
 	},
 ];
 
