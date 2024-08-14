@@ -173,7 +173,14 @@ export const BentoGridItem = ({
 									copied ? "block" : "block"
 								}`}
 							>
-								<Image src="/confetti.gif" alt="confetti" height={200} width={400} />
+								{copied && (
+									<Image
+										src="/confetti.gif"
+										alt="confetti"
+										height={200}
+										width={400}
+									/>
+								)}
 								{/* <Lottie options={defaultOptions} height={200} width={400} /> */}
 							</div>
 
