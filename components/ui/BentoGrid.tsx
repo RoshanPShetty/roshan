@@ -196,7 +196,7 @@ export const BentoGridItem = ({
 
 							<MagicButton
 								title={download ? "Resume downloaded!" : "Download Resume"}
-								icon={<FaDownload />}
+								icon={download ? <img src="/completed.gif" alt="download" /> : <FaDownload />}
 								position="right"
 								handleClick={handleDownload}
 								otherClasses="!bg-[#161A31]"
