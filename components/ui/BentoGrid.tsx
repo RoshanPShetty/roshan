@@ -1,12 +1,12 @@
 "use client";
 import animationData from "@/data/confetti.json";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
+import { useState } from "react";
+import { FaDownload } from "react-icons/fa";
 import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
 import { GlobeDemo } from "./GridGlobe";
-import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
-import Image from "next/image";
 
 export const BentoGrid = ({
 	className,
@@ -63,8 +63,8 @@ export const BentoGridItem = ({
 	};
 
 	const handleCopy = () => {
-		const text = "roshanshetty2000@gmail.com";
-		navigator.clipboard.writeText(text);
+		// const text = "roshanshetty2000@gmail.com";
+		// navigator.clipboard.writeText(text);
 		setCopied(true);
 		setTimeout(() => {
 			setCopied(false);
@@ -184,13 +184,18 @@ export const BentoGridItem = ({
 								{/* <Lottie options={defaultOptions} height={200} width={400} /> */}
 							</div>
 
-							<MagicButton
-								title={copied ? "Email is Copied!" : "Copy my email address"}
-								icon={<IoCopyOutline />}
-								position="left"
-								handleClick={handleCopy}
-								otherClasses="!bg-[#161A31]"
-							/>
+							<a
+								download
+								href={"../../public/Shetty_Roshan_Praveen_Resume.pdf"}
+							>
+								<MagicButton
+									title={copied ? "Resume downloaded!" : "Download Resume"}
+									icon={<FaDownload />}
+									position="right"
+									handleClick={handleCopy}
+									otherClasses="!bg-[#161A31]"
+								/>
+							</a>
 						</div>
 					)}
 				</div>
