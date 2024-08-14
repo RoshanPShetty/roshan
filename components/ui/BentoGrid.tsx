@@ -51,24 +51,34 @@ export const BentoGridItem = ({
 	const leftLists = ["Express", "ReactJS", "Typescript"];
 	const rightLists = ["NodeJS", "SQL", "TailwindCSS"];
 
-	const [copied, setCopied] = useState(false);
+	const [download, setDownload] = useState(false);
 
 	const defaultOptions = {
-		loop: copied,
-		autoplay: copied,
+		loop: download,
+		autoplay: download,
 		animationData: animationData,
 		rendererSettings: {
 			preserveAspectRatio: "xMidYMid slice",
 		},
 	};
 
-	const handleCopy = () => {
+	const handleDownload = (e: any) => {
 		// const text = "roshanshetty2000@gmail.com";
 		// navigator.clipboard.writeText(text);
-		setCopied(true);
+
+		e.preventDefault();
+		const url = "/Shetty_Roshan_Praveen_Resume.pdf";
+		const filename = "Shetty_Roshan_Praveen_Resume.pdf";
+		const link = document.createElement("a");
+		link.href = url;
+		link.download = filename;
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+		setDownload(true);
 		setTimeout(() => {
-			setCopied(false);
-		}, 2000);
+			setDownload(false);
+		}, 5000);
 	};
 
 	return (
@@ -170,10 +180,10 @@ export const BentoGridItem = ({
 						<div className="mt-5 relative">
 							<div
 								className={`absolute -bottom-5 right-0 ${
-									copied ? "block" : "block"
+									download ? "block" : "block"
 								}`}
 							>
-								{copied && (
+								{download && (
 									<Image
 										src="/confetti.gif"
 										alt="confetti"
@@ -184,18 +194,13 @@ export const BentoGridItem = ({
 								{/* <Lottie options={defaultOptions} height={200} width={400} /> */}
 							</div>
 
-							<a
-								download
-								href={"../../public/Shetty_Roshan_Praveen_Resume.pdf"}
-							>
-								<MagicButton
-									title={copied ? "Resume downloaded!" : "Download Resume"}
-									icon={<FaDownload />}
-									position="right"
-									handleClick={handleCopy}
-									otherClasses="!bg-[#161A31]"
-								/>
-							</a>
+							<MagicButton
+								title={download ? "Resume downloaded!" : "Download Resume"}
+								icon={<FaDownload />}
+								position="right"
+								handleClick={() => handleDownload}
+								otherClasses="!bg-[#161A31]"
+							/>
 						</div>
 					)}
 				</div>
