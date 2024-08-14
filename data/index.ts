@@ -1,7 +1,7 @@
 export const navItems = [
 	{ name: "About", link: "#about" },
 	{ name: "Projects", link: "#projects" },
-	{ name: "Testimonials", link: "#testimonials" },
+	{ name: "References", link: "#references" },
 	{ name: "Contact", link: "#contact" },
 ];
 
@@ -119,7 +119,7 @@ export const projects = [
 	},
 ];
 
-export const testimonials = [
+export const references = [
 	{
 		quote:
 			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
