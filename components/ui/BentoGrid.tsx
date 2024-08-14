@@ -198,7 +198,7 @@ export const BentoGridItem = ({
 								title={download ? "Resume downloaded!" : "Download Resume"}
 								icon={<FaDownload />}
 								position="right"
-								handleClick={() => handleDownload}
+								handleClick={handleDownload}
 								otherClasses="!bg-[#161A31]"
 							/>
 						</div>
