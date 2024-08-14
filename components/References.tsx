@@ -2,7 +2,7 @@ import React from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 import { companies, references } from "@/data";
 
-const Clients = () => {
+const References = () => {
 	return (
 		<div className="py-20" id="references">
 			<h1 className="heading">
@@ -10,6 +10,7 @@ const Clients = () => {
 			</h1>
 			<div className="flex flex-col items-center max-lg:mt-10">
 				<InfiniteMovingCards
+					className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
 					items={references}
 					direction="right"
 					speed="slow"
@@ -27,4 +28,4 @@ const Clients = () => {
 	);
 };
 
-export default Clients;
+export default References;
