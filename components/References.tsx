@@ -4,7 +4,7 @@ import { companies, references } from "@/data";
 
 const References = () => {
 	return (
-		<div className="py-20" id="references">
+		<div className="pb-20" id="references">
 			<h1 className="heading">
 				Kind words from <span className="text-purple">my colleagues</span>
 			</h1>
