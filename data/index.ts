@@ -286,4 +286,9 @@ export const socialMedia = [
 		img: "/link.svg",
 		link: "https://www.linkedin.com/in/roshanpshetty/",
 	},
+	{
+		id: 3,
+		img: "/photo.svg",
+		link: "https://roshanshetty.mypixieset.com/",
+	},
 ];
