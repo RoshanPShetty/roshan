@@ -6,7 +6,8 @@ const References = () => {
 	return (
 		<div className="pb-20" id="references">
 			<h1 className="heading">
-				Kind words from <span className="text-purple">my colleagues</span>
+				Professional{" "}
+				<span className="text-purple">Endorsements and Recommendations</span>
 			</h1>
 			<div className="flex flex-col items-center max-lg:mt-10">
 				<InfiniteMovingCards

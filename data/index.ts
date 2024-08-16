@@ -123,38 +123,17 @@ export const projects = [
 export const references = [
 	{
 		quote:
-			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
+			"I highly endorse Roshan as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
 		name: "Michael Gulik",
 		title: "Software Engineer at GRUBBRR",
-		img: "/profile.jpg",
+		img: "/ref1.jpg",
 	},
 	{
 		quote:
-			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
-		name: "Michael Gulik",
-		title: "Software Engineer at GRUBBRR",
-		img: "/profile.jpg",
-	},
-	{
-		quote:
-			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
-		name: "Michael Gulik",
-		title: "Software Engineer at GRUBBRR",
-		img: "/profile.jpg",
-	},
-	{
-		quote:
-			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
-		name: "Michael Gulik",
-		title: "Software Engineer at GRUBBRR",
-		img: "/profile.jpg",
-	},
-	{
-		quote:
-			"I highly endorse Roshan Shetty as a Frontend Developer. His ability to exceed expectations and his independent, driven spirit made him a valuable asset during his internship. Roshan's proficiency in JavaScript/TypeScript, Svelte, and CSS, along with his leadership in UI development and testing, sets him apart. He would be a great fit for any team.",
-		name: "Michael Gulik",
-		title: "Software Engineer at GRUBBRR",
-		img: "/profile.jpg",
+			"I highly recommend Roshan for his outstanding contributions as an MS Grader and Software Architect. Working closely with me, Roshan played a pivotal role in developing a PaaS that transformed our project-based learning approach. His deep technical expertise, combined with his ability to seamlessly integrate various tools, made a significant impact on our course management. Roshan's collaborative nature and problem-solving skills make him an excellent addition to any team.",
+		name: "Tim Richards",
+		title: "Senior Lecturer II at the University of Massachusetts Amherst",
+		img: "/ref2.jpeg",
 	},
 ];
 
