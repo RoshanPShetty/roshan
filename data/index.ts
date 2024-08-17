@@ -89,6 +89,14 @@ export const projects = [
 	},
 	{
 		id: 2,
+		title: "Netflix AutoSkip",
+		des: "A Chrome extension designed to enhance your Netflix streaming experience by automatically skipping intros, navigating to the next episode, and bypassing other repetitive actions.",
+		img: "/p3.png",
+		iconLists: ["/html.svg", "/css.svg", "/js.svg", "git.svg", "/ch.svg"],
+		link: "https://netflix-autoskip.vercel.app/",
+	},
+	{
+		id: 3,
 		title: "RateMyDining",
 		des: "A mobile app for university students to access real-time dining reviews, ratings, and discover diverse campus food options.",
 		img: "/p2.jpg",
@@ -101,14 +109,6 @@ export const projects = [
 			"git.svg",
 		],
 		link: "https://github.com/RoshanPShetty/ratemydining",
-	},
-	{
-		id: 3,
-		title: "Netflix AutoSkip",
-		des: "A Chrome extension designed to enhance your Netflix streaming experience by automatically skipping intros, navigating to the next episode, and bypassing other repetitive actions.",
-		img: "/p3.png",
-		iconLists: ["/html.svg", "/css.svg", "/js.svg", "git.svg", "/ch.svg"],
-		link: "https://netflix-autoskip.vercel.app/",
 	},
 	{
 		id: 4,
