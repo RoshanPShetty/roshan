@@ -104,11 +104,11 @@ export const projects = [
 	},
 	{
 		id: 3,
-		title: "RideShare",
-		des: "A web application that allows students to share rides to common destinations through a sophisticated portal.",
-		img: "/p3.jpg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "git.svg", "/c.svg"],
-		link: "https://github.com/F-in-the-Chat/RideShare",
+		title: "Netflix AutoSkip",
+		des: "A Chrome extension designed to enhance your Netflix streaming experience by automatically skipping intros, navigating to the next episode, and bypassing other repetitive actions.",
+		img: "/p3.png",
+		iconLists: ["/html.svg", "/css.svg", "/js.svg", "git.svg", "/ch.svg"],
+		link: "https://netflix-autoskip.vercel.app/",
 	},
 	{
 		id: 4,
